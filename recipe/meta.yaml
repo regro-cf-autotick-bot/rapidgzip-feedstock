@@ -18,7 +18,7 @@ build:
     - RAPIDGZIP_BUILD_RPMALLOC=disable
     - RAPIDGZIP_BUILD_ZLIB=system
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   build:
